@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202001251
+! Version: 202001261
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@|http*$stylesheet
@@ -467,6 +467,8 @@ zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],div[class*=-ad],div[class|=
 !-------------------QQ--------------------
 v.qq.com##div.mod_ad,div.mod_ads,div.pop_ads_wide,#QQlive_SP_RM,div.mod_float_pc,a[href*=".tmall.com/"],div.player_bg_ad
 v.qq.com##+js(nano-sib.js, \u5012\u8ba1\u65f6, 1000, 0)
+||qq.com/*.mp4?$media,redirect=noopmp3-0.1s,domain=v.qq.com
+!||v.smtcdns.com/*.tc.qq.com/*.mp4?$media,redirect=noopmp3-0.1s
 @@||qq.com/fcgi-bin/
 ||adss.video.qq.com/
 ||gtimg.com/qqlive/
