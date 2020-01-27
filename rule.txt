@@ -1,17 +1,17 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202001261
+! Version: 202001271
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@|http*$stylesheet
 @@|http*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net
 |http://js*$xmlhttprequest,third-party
 ! 屏蔽第三方资源
-|http*$third-party,~image,domain=snwx8.com|m.xinguli.com|520xsla.com|dhzw.org|muyuge.com|92to.com|xunzai.com|xxs84.com|biqudao.com|bequge.com|qu.la
-|http*$third-party,domain=hjwzw.com|xbiquge6.com|share.dmhy.org
+|http*$third-party,~image,domain=snwx8.com|m.xinguli.com|520xsla.com|dhzw.org|muyuge.com|xunzai.com|xxs84.com|biqudao.com|jx.la
+|http*$third-party,domain=hjwzw.com|xsbiquge.com|share.dmhy.org
 |http*$third-party,subdocument,domain=tieba.baidu.com
 ! NoScript，可加上自己要过滤的域名
-|http*$script,domain=eywedu.org|365essay.com|baishuku.la
+|http*$script,domain=eywedu.org|365essay.com|baishuku.com
 |http*$subdocument,domain=u17.com|music.baidu.com
 !--------------------------百度----------------------------------
 ||cpro.
@@ -762,10 +762,6 @@ dygang.com,6vhao.com,6vhao.net###gd
 
 92btbtt.com,8btbtt.com,btbtt.biz##.error,body>a
 !||92btbtt.com/service/clickd/
-||8btbtt.com/imgs.js
-||8btbtt.com/view/image/QT_
-||92btbtt.com/imgs.js
-||92btbtt.com/view/image/QT_
 ||btbtt.biz/imgs.js
 ||btbtt.biz/view/image/QT_
 
@@ -780,13 +776,9 @@ ttmeiju.com##.midder>div[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ||pic.yupoo.com/*/medish.jpg$domain=~ttmeiju.com
 yatu.tv###loadimg,#daohang
 ||ygdy8.com/jsy/
-||img.zimuzu.tv/52meiju$image
-||img.91dict.com/$image,domain=zimuzu.tv
 !-------------------视频站点--------------------
 ||com/pic/fgr/$script,object-subrequest
-||www.youtube.com/annotations_invideo?$xmlhttprequest
 ||s.youtube.com/api/stats/
-||6rooms.com/$image,domain=~6.cn
 
 acfun.cn###ad-comment,#ad-player-view
 ||www.acfun.cn/adnew.aspx
@@ -803,15 +795,10 @@ pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
 ||g.pptv.com/game/$subdocument
 ||wsacdn1.miaopai.com/upload-pic/*.jpg|
 ||log1.17173.com/
-|http://img.kankan.xunlei.com/*.gif|
-|http://misc.t.kankan.com/level_demo/iframe/$subdocument
-|http://static.hd.baofeng.com/script/baidu.js
 baofeng.com##[class|=ad],div.play-top-ad,.play-ad-box,.play-ad-left
 
 @@||js.tv.itc.cn/gg.seed.js
 @@||stat.v-56.com/player
-56.com##div.qf_float
-||qf.56.itc.cn^$image
 ||css.tv.itc.cn/m/img/player/dlBanner.$image
 ||data.vod.itc.cn/?*&prod=ad&$media
 ||api.my.tv.sohu.com/wm/getads.do?
@@ -832,8 +819,7 @@ iqiyi.com##div.vip_rec_main,div.box_right.rightAdv,div[data-widget-3rdads],div.c
 ||am.cupid.iqiyi.com/am
 ||t7z.cupid.iqiyi.com/$domain=~iqiyi.com|~pps.tv
 ||ssports.iqiyi.com/app/$object-subrequest
-||msg.qy.net^$script
-||qiyipic.com/common/201$object-subrequest
+||qiyipic.com/common/20$object-subrequest
 
 www.soku.com##li.sb_ad,div.sk-banner,div.sk_banner
 ||tip.soku.com/searches/soku/kubox/v4/sideads.json?
@@ -843,7 +829,7 @@ www.soku.com##li.sb_ad,div.sk-banner,div.sk_banner
 ||atm.youku.com/
 ||l.youku.com/
 ||module.youku.com/
-youku.com##.right-sidepopup,div[id^=ab_v_],li.js-draw,#yk-player-curtain
+youku.com##li.fn-phonewatch,div[id^=ab_v_],li.js-draw
 
 bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
 @@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
