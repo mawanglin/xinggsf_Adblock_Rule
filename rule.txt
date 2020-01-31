@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202001271
+! Version: 202001311
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@|http*$stylesheet
@@ -633,7 +633,6 @@ iciba.com##div[class|=ad],div.newpc-entry
 !-------------------IT----------------------
 51cto.com###ft~div
 51cto.com##div:has(#tonglanad)
-blog.51cto.com###topbanner14
 ||i1.51cto.com/
 ||i2.51cto.com/
 ||i3.51cto.com/
@@ -694,14 +693,13 @@ www.v2ex.com###Rightbar>div.box:nth-of-type(2)~*
 zhihu.com##.Banner.Card,.shameimaru-section,.Banner-image,.Banner-image
 !-------------------杂项--------------------
 1ting.com##[id^=tingx_]
-|http://www.1ting.com/$subdocument
+||www.1ting.com/$subdocument
 ||mail.21cn.com/w2/source/images/firstpagecont/$image
 360doc.com##div[id^=divad],#fullbg
+||webservice.360doc.com/
 |http://www.4399.com/loadimg/iframe_$subdocument
 ||5054399.com/4399_js/$script
 ||52pk.com/$object
-||ku.92to.com/
-||92to.com/skin/js/
 ||click.ali213.net/
 ||pbmp.ali213.net/
 ||tj.ali213.net/
@@ -748,7 +746,6 @@ bbs.xmfish.com##div[id^=adm_show_]
 ||zchot.com/images/jiaoyou
 ||www.zhujiceping.com/F/$image
 ||www.zhujiceping.com/wp-content/uploads/$script
-@@||www.zimuku.net/$script
 !-------------------影视资源--------------------
 ||2kandy.com/js/$script
 |https://www.36dm.com/js/
@@ -813,10 +810,7 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 @@||tb.mgtv.com/sdk/*/ad-sdk.js$script
 ||da.mgtv.com/
 
-iqiyi.com##div.vip_rec_main,div.box_right.rightAdv,div[data-widget-3rdads],div.crossAd,#widget-indexad,div.ad-wrapper,#addiv,div.s_main.liveTop_adv,div.leftAd,#sina_anywhere_iframe,#adflash,div[id^="100000000"],#widget-jingdongAd,div[data-widget-adparam]
 ||com/videos/other/20$xmlhttprequest,object-subrequest
-||a.ckm.iqiyi.com/
-||am.cupid.iqiyi.com/am
 ||t7z.cupid.iqiyi.com/$domain=~iqiyi.com|~pps.tv
 ||ssports.iqiyi.com/app/$object-subrequest
 ||qiyipic.com/common/20$object-subrequest
@@ -829,7 +823,7 @@ www.soku.com##li.sb_ad,div.sk-banner,div.sk_banner
 ||atm.youku.com/
 ||l.youku.com/
 ||module.youku.com/
-youku.com##li.fn-phonewatch,div[id^=ab_v_],li.js-draw
+youku.com##.control-phonewatch
 
 bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
 @@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
