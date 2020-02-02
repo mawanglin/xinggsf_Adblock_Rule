@@ -556,6 +556,7 @@ hao.360.cn##div.small-obj.animate,#corner-flash
 ||d3.sina.com.cn/
 ||pfp.sina.com.cn/
 ||rm.sina.com.cn/$script,subdocument
+@@||sax.sina.com.cn/video/$script
 ||sax.sina.
 blog.sina.cn##div.item_hide+div,#pl-blog-artad
 ||dmp.sina.cn/
@@ -757,10 +758,8 @@ dygang.com,6vhao.com,6vhao.net###gd
 ||www.6vhao.net/d/$script
 ||www.dygang.com/d/$script
 
-92btbtt.com,8btbtt.com,btbtt.biz##.error,body>a
-!||92btbtt.com/service/clickd/
-||btbtt.biz/imgs.js
-||btbtt.biz/view/image/QT_
+||88btbtt.com/$inline-script,script
+||88btbtt.com/view/image/$image
 
 ||share.dmhy.org^$image
 
