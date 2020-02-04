@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202002021
+! Version: 202002041
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
 youku.com##.control-phonewatch
-youku.com##+js(nano-stb, , ,0)
+youku.com##+js(nano-stb, , ,0.02)
 @@||mmstat.com/$domain=v.youku.com|tudou.com
 ||atm.youku.com/
 ||cibntv.net/$media,redirect=noopmp3-0.1s,domain=youku.com
@@ -26,7 +26,10 @@ v.qq.com##+js(nano-sib.js, \u5012\u8ba1\u65f6, 1000, 0)
 @@||qq.com/fcgi-bin/
 ||adss.video.qq.com/
 ||gtimg.com/qqlive/
+||miaozhen.com/
+||reachmax.cn/
 ||tencentmind.com/
+||xtgreat.com/
 
 bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
 @@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
@@ -40,11 +43,9 @@ live.bilibili.com##.video-section+a
 ||qiniu.bilibilijj.com/$image
 
 acfun.cn###ad-comment,#ad-player-view
-||www.acfun.cn/adnew.aspx
 
 cctv.com###bgAd_div
 ||imall.cctv.com/$subdocument
-|http://player.cntv.cn/adplayer/$object
 ||bjcathay.com/
 
 pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
