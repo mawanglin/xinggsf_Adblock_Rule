@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202002021
+! Version: 202002071
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@|http*$stylesheet
@@ -266,18 +266,6 @@ zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],div[class*=-ad],div[class|=
 ||icon.zol-img.com.cn/public/js/web_foot$script
 ||p.zol-img.com.cn/$script
 !-------------------QQ--------------------
-v.qq.com##div.mod_ad,div.mod_ads,div.pop_ads_wide,#QQlive_SP_RM,div.mod_float_pc,a[href*=".tmall.com/"],div.player_bg_ad
-v.qq.com##+js(nano-sib.js, \u5012\u8ba1\u65f6, 1000, 0)
-||qq.com/*.mp4?$media,redirect=noopmp3-0.1s,domain=v.qq.com
-!||v.smtcdns.com/*.tc.qq.com/*.mp4?$media,redirect=noopmp3-0.1s
-@@||qq.com/fcgi-bin/
-||adss.video.qq.com/
-||gtimg.com/qqlive/
-||miaozhen.com/
-||reachmax.cn/
-||tencentmind.com/
-||xtgreat.com/
-
 @@||wx.qq.com/*/ad_$script
 @@||cdn.exp.qq.com/img/
 ||adsrich.qq.com/
@@ -344,8 +332,6 @@ mail.163.com,mail.126.com##.emailSuggest,#theme,.gWel-bottom
 ||mimg.127.net/m/lb/img/inboxBottom/$image
 ||mimg.127.net/m/lb/img/leftNavBottom/$image
 |data:text/plain$popup,domain=music.163.com
-!-------------------360-----------------------
-||tf.360.cn/
 !-------------------新浪--------------------
 ||sinaimg.cn/unipro/$domain=~video.sina.com.cn|~weibo.com
 ||sina.com.cn/iframe/76/$subdocument
@@ -442,7 +428,7 @@ autohome.com.cn###s2287
 ||autohome.com.cn/adfront/
 
 cnbeta.com##.cbv,#artibody~*,#upcoming_box
-cnbeta.com##+js(acis.js, document.body, 广告屏蔽插件)
+cnbeta.com##+js(acis, document.body, 广告屏蔽插件)
 
 @@||g.csdnimg.cn/$script
 ||img-ads.csdn.net/
@@ -578,77 +564,8 @@ yatu.tv###loadimg,#daohang
 !-------------------视频站点--------------------
 ||com/pic/fgr/$script,object-subrequest
 ||s.youtube.com/api/stats/
-
-acfun.cn###ad-comment,#ad-player-view
-
-cctv.com###bgAd_div
-||imall.cctv.com/$subdocument
-||bjcathay.com/
-
-||www.dililitv.com/*.php?ad=$script
-||pub.funshion.com
 ||log1.17173.com/
 
-pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
-||synacast.com
-||de.as.pptv.com^
-||g.pptv.com/game/$subdocument
-
-@@||js.tv.itc.cn/gg.seed.js
-@@||stat.v-56.com/player
-||css.tv.itc.cn/m/img/player/dlBanner.$image
-||data.vod.itc.cn/?*&prod=ad&$media
-||api.my.tv.sohu.com/wm/getads.do?
-||aty.sohu.com/
-||go.sohu.com/
-||tv.sohu.com/upload/csad/admaster/$image
-tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
-
-1905.com##.ad-couplet,#hd-tab-label4,div.bd-tab.video-list:last-child
-||aliyun.com^$domain=1905.com
-||aliyuncs.com^$domain=1905.com
-@@||tb.mgtv.com/sdk/*/ad-sdk.js$script
-||da.mgtv.com/
-
-iqiyi.com##div[data-adzone][adid]
-iqiyi.com##+js(aopr, DOMParser)
-iqiyi.com##+js(nano-sib)
-||static.iqiyi.com/js/common/mars_v.js$script
-@@||t7z.cupid.iqiyi.com/show$script
-||t7z.cupid.iqiyi.com/$domain=~iqiyi.com|~pps.tv
-||com/videos/other/20$xmlhttprequest,object-subrequest
-||ssports.iqiyi.com/app/$object-subrequest
-
-youku.com##.control-phonewatch
-youku.com##+js(nano-stb, , ,0)
-@@||mmstat.com/$domain=v.youku.com|tudou.com
-||atm.youku.com/
-||cibntv.net/$media,redirect=noopmp3-0.1s,domain=youku.com
-@@||valipl.cp31.ott.cibntv.net^$xmlhttprequest,domain=youku.com
-
-bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
-@@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
-@@||www.bilibili.com/html/iframemessage.html
-||bilibili.com/html/$~xmlhttprequest,~websocket
-||api.bilibili.com/x/web-show/res/loc?pf=$~script
-||hdslb.com/bfs/sycp/creative_img/$image
-||hdslb.com/bfs/sycp/tmaterial/20$image
-live.bilibili.com##.video-section+a
-||data.bilibilijj.com/free/*.txt
-||qiniu.bilibilijj.com/$image
-
-@@||ark.letv.com/adx?adzone=
-@@||stat.letv.com/$script
-*/letv-gug/*$media,object-subrequest
-||letvimg.com/$object,object-subrequest
-||letvimg.com/*_gugwl/$image
-||js.letvcdn.com/*_banner_$script
-||banana.le.com/
-le.com##.banner_ad,#rightBottomPop,div.banner_left,div.banner_right,div.column_right>.lh_box
-
-douyu.com##div.bglink,#lifter,[data-dysign-adid],div[class$=-ad],div[class|=ad],div.no-login,.his-sign-cont,.f-sign-cont
-||wan.douyu.com/
-||g.huya.com/
 ||luckstatic.v1.cn/st/10000/
 ||luck.v1.cn/$object-subrequest
 yinyuetai.com##.gbox,video~div,.shopMoney,div[class^=ad_],a.pic[href^="http://shop.yinyuetai.com/"]
