@@ -79,6 +79,8 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||greenet.cn/$popunder
 ||189.gd/$popunder
 ||51.la^
+||admaster.com
+||admaster.com.cn
 ||market.aliyun.com/
 ||allyes.
 ||cnzz.
@@ -91,7 +93,6 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||google-analytics.com
 ||irs01.
 ||x.jd.com/
-||jfqkj.com/
 @@||s.click.taobao.com^$third-party,popup
 ||click.taobao.com/$third-party,popunder
 ||union.
@@ -137,7 +138,7 @@ pageMediaControl*$script
 @@||patch.ali213.net/js/pop.js^$script
 */pop.js^
 *.pop.js^$script
-*popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
+*popup.js^$domain=~qzone.qq.com|~yinyuetai.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
 */float.js|
 *gonggao.js|
 */tan.$script
@@ -474,7 +475,7 @@ pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
 ||33.pcpop.com
 ||ashow.pcpop.com/
 
-www.v2ex.com###Rightbar>div.box:nth-of-type(2)~*
+v2ex.com###Rightbar
 ||v2ex.assets.uxengine.net/assets/sidebar/$image
 zhihu.com##.Banner.Card,.shameimaru-section,.Banner-image,.Banner-image
 !-------------------杂项--------------------
@@ -519,7 +520,7 @@ duowan.com##a[adid]
 www.hao123.com##div#ecom,div.widget-topbanner,A.link.download,#shortcut-box,#shortcut-box~*,div[monkey=yixing],.siye,#leftbannerv2
 
 iciba.com##div[class|=ad],div.newpc-entry
-|http://cdn.iciba.com/web/co/ci/$image
+||cdn.iciba.com/web/co/ci/$image
 
 qiushibaike.com##div.shopwindow
 ||3.ssqzj.com/
@@ -563,12 +564,10 @@ yatu.tv###loadimg,#daohang
 ||ygdy8.com/jsy/
 !-------------------视频站点--------------------
 ||com/pic/fgr/$script,object-subrequest
-||s.youtube.com/api/stats/
 ||log1.17173.com/
 
 ||luckstatic.v1.cn/st/10000/
 ||luck.v1.cn/$object-subrequest
-yinyuetai.com##.gbox,video~div,.shopMoney,div[class^=ad_],a.pic[href^="http://shop.yinyuetai.com/"]
 
 @@||union.bokecc.com/player
 ||bokecc.com/*.jpg|$object-subrequest
