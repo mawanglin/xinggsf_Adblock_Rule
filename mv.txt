@@ -1,19 +1,17 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202002101
+! Version: 202002131
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
 v.youku.com##.control-phonewatch,#right-title-ad-banner
-v.youku.com##+js(nano-stb, , ,0.02)
+v.youku.com##+js(nano-stb)
 @@||mmstat.com/$domain=v.youku.com|tudou.com
 ||atm.youku.com/
-||cibntv.net/$media,redirect=noopmp3-0.1s,domain=youku.com
-@@||valipl.cp31.ott.cibntv.net^$xmlhttprequest,domain=youku.com
+||cibntv.net/$media
 
 iqiyi.com##div[data-adzone][adid]
 iqiyi.com##+js(aopr, DOMParser)
-!iqiyi.com##+js(nano-sib)
 ||static.iqiyi.com/js/common/mars_v.js$script
 @@||t7z.cupid.iqiyi.com/show$script
 ||t7z.cupid.iqiyi.com/$domain=~iqiyi.com|~pps.tv
@@ -22,8 +20,8 @@ iqiyi.com##+js(aopr, DOMParser)
 
 v.qq.com##+js(json-prune, ad, vinfo)
 !v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
-@@||vhotwsh.video.qq.com/*.mp4?$media
-||qq.com/*.mp4?$media,redirect=noopmp3-0.1s,domain=v.qq.com
+!@@||vhotwsh.video.qq.com/*.mp4?$media
+!||qq.com/*.mp4?$media
 @@||qq.com/fcgi-bin/
 ||adss.video.qq.com/
 ||gtimg.com/qqlive/
@@ -39,9 +37,6 @@ bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
 ||hdslb.com/bfs/sycp/tmaterial/20$image
-live.bilibili.com##.video-section+a
-||data.bilibilijj.com/free/*.txt
-||qiniu.bilibilijj.com/$image
 
 acfun.cn###ad-comment,#ad-player-view
 
