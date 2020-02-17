@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202002131
+! Version: 202002181
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -9,15 +9,17 @@ v.youku.com##+js(nano-stb)
 @@||mmstat.com/$domain=v.youku.com|tudou.com
 ||atm.youku.com/
 ||cibntv.net/$media
+/ikuAdapterNew.js^$script,domain=youku.com|tudou.com
 
 iqiyi.com##div[data-adzone][adid]
 iqiyi.com##+js(aopr, DOMParser)
 ||static.iqiyi.com/js/common/mars_v.js$script
-@@||t7z.cupid.iqiyi.com/show$script
-||t7z.cupid.iqiyi.com/$domain=~iqiyi.com|~pps.tv
+!@@||t7z.cupid.iqiyi.com/show$script
+!||t7z.cupid.iqiyi.com/
 ||com/videos/other/20$xmlhttprequest,object-subrequest
 ||ssports.iqiyi.com/app/$object-subrequest
 
+v.qq.com##.mod_ad
 v.qq.com##+js(json-prune, ad, vinfo)
 !v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !@@||vhotwsh.video.qq.com/*.mp4?$media
@@ -31,7 +33,6 @@ v.qq.com##+js(json-prune, ad, vinfo)
 ||xtgreat.com/
 
 bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
-@@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
 @@||www.bilibili.com/html/iframemessage.html
 ||bilibili.com/html/$~xmlhttprequest,~websocket
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
