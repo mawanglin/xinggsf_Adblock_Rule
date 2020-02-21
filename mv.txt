@@ -8,7 +8,7 @@ v.youku.com##.control-phonewatch,#right-title-ad-banner
 v.youku.com##+js(nano-stb)
 @@||mmstat.com/$domain=v.youku.com|tudou.com
 ||atm.youku.com/
-||cibntv.net/youku/$media
+||cibntv.net/$media,domain=v.youku.com|tudou.com
 /ikuAdapterNew.js^$script,domain=youku.com|tudou.com
 
 iqiyi.com##div[data-adzone][adid]
