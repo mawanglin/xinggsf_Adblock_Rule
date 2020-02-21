@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202002181
+! Version: 202002221
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -8,7 +8,7 @@ v.youku.com##.control-phonewatch,#right-title-ad-banner
 v.youku.com##+js(nano-stb)
 @@||mmstat.com/$domain=v.youku.com|tudou.com
 ||atm.youku.com/
-||cibntv.net/$media
+||cibntv.net/youku/$media
 /ikuAdapterNew.js^$script,domain=youku.com|tudou.com
 
 iqiyi.com##div[data-adzone][adid]
@@ -22,8 +22,8 @@ iqiyi.com##+js(aopr, DOMParser)
 v.qq.com##.mod_ad
 v.qq.com##+js(json-prune, ad, vinfo)
 !v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
-!@@||vhotwsh.video.qq.com/*.mp4?$media
-!||qq.com/*.mp4?$media
+@@||vhotwsh.video.qq.com/*.mp4?$media
+||qq.com/*.mp4?$media
 @@||qq.com/fcgi-bin/
 ||adss.video.qq.com/
 ||gtimg.com/qqlive/
@@ -40,6 +40,7 @@ bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
 ||hdslb.com/bfs/sycp/tmaterial/20$image
 
 acfun.cn###ad-comment,#ad-player-view
+||aixifan.com/static/*/appGuide/
 
 cctv.com###bgAd_div
 ||imall.cctv.com/$subdocument
