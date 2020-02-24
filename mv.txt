@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202002221
+! Version: 202002251
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -8,8 +8,8 @@ v.youku.com##.control-phonewatch,#right-title-ad-banner
 v.youku.com##+js(nano-stb)
 @@||mmstat.com/$domain=v.youku.com|tudou.com
 ||atm.youku.com/
-||cibntv.net/$media,domain=v.youku.com|tudou.com
-/ikuAdapterNew.js^$script,domain=youku.com|tudou.com
+||cibntv.net/$media,domain=v.youku.com
+*/ikuAdapterNew.js^$script,domain=youku.com|tudou.com
 
 iqiyi.com##div[data-adzone][adid]
 iqiyi.com##+js(aopr, DOMParser)
@@ -23,7 +23,7 @@ v.qq.com##.mod_ad
 v.qq.com##+js(json-prune, ad, vinfo)
 !v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||vhotwsh.video.qq.com/*.mp4?$media
-||qq.com/*.mp4?$media
+||qq.com/*.mp4?$media,domain=v.qq.com
 @@||qq.com/fcgi-bin/
 ||adss.video.qq.com/
 ||gtimg.com/qqlive/
@@ -69,7 +69,7 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 
 @@||ark.letv.com/adx?adzone=
 @@||stat.letv.com/$script
-*/letv-gug/*$media,object-subrequest
+*/letv-gug/$media,object-subrequest
 ||letvimg.com/$object,object-subrequest
 ||letvimg.com/*_gugwl/$image
 ||js.letvcdn.com/*_banner_$script
@@ -80,5 +80,9 @@ douyu.com##div.bglink,#lifter,[data-dysign-adid],div[class$=-ad],div[class|=ad],
 ||wan.douyu.com/
 ||g.huya.com/
 
-||www.dililitv.com/*.php?ad=$script
 ||pub.funshion.com
+||www.dililitv.com/*.php?ad=$script
+
+*/preroll/$media,domain=91porn.com
+||91p20.space^
+||waust.at^
