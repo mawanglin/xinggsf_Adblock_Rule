@@ -3,8 +3,8 @@
 ! Version: 202002251
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
-@@|http*$stylesheet
-@@|http*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net
+@@*$stylesheet
+@@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net
 !--------------------------百度----------------------------------
 ||cpro.
 ||dup.baidustatic.com/
