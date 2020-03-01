@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202002281
+! Version: 202003011
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -10,9 +10,9 @@ v.youku.com##+js(nano-stb)
 ||cibntv.net/youku/$media
 ||valipl.cp31.ott.cibntv.net/$media
 */ikuAdapterNew.js^$script,domain=youku.com|tudou.com
-!||r1.ykimg.com/material/$image
+!||ykimg.com/material/$image
 !youku.com##.ad-wrap
-||sealine.youku.com/yk/html?*callback=adpagesdk$script
+||sealine.youku.com/yk/*callback=adpagesdk$script
 
 iqiyi.com##div[data-adzone][adid]
 iqiyi.com##+js(aopr, DOMParser)
@@ -20,7 +20,7 @@ iqiyi.com##+js(aopr, DOMParser)
 ||iqiyi.com/videos/other/20$xmlhttprequest,object-subrequest
 ||ssports.iqiyi.com/app/$object-subrequest
 
-v.qq.com##.mod_ad
+qq.com##.mod_ad
 v.qq.com##+js(json-prune, ad, vinfo)
 !v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||vhotwsh.video.qq.com/*.mp4?$media
@@ -39,6 +39,7 @@ bilibili.com##div.ad-f,span[data-ad-type=banner],.gg-floor-module,.slide-gg
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
 ||hdslb.com/bfs/sycp/tmaterial/20$image
+||api.live.bilibili.com/$domain=www.bilibili.com
 
 acfun.cn###ad-comment,#ad-player-view
 ||aixifan.com/static/*/appGuide/

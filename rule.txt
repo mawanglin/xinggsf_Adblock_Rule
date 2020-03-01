@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202002281
+! Version: 202003011
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -561,7 +561,13 @@ ttmeiju.com##.midder>div[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ||pic.yupoo.com/*/medish.jpg$domain=~ttmeiju.com
 ||ygdy8.com/jsy/
 !-------------------视频站点--------------------
-yatu.tv###loadimg,#daohang,[id^=myas]
+yatu.tv###loadimg,#daohang,#loadtop,#myas1,#myas2,#myds1
+||ch-hr12333.com^
+||g1c5.com/
+||ieeod0.com/
+||v4dwkcv.com/
+||youle55.com/
+
 ||com/pic/fgr/$script,object-subrequest
 ||log1.17173.com/
 
