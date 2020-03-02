@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202003011
+! Version: 202003031
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -88,11 +88,14 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 *coinhive.min.js^$script
 ||coin-hive.com/
 ||coinhive-manager.com/
+dlads.cn
+dmvbdfblevxvx.com
 ||googleadservices.com
 ||googlesyndication.com
 ||google-analytics.com
 ||irs01.
 ||x.jd.com/
+sdqoi2d.com
 @@||s.click.taobao.com^$third-party,popup
 ||click.taobao.com/$third-party,popunder
 ||union.
