@@ -9,7 +9,8 @@ v.youku.com##+js(nano-stb)
 ||atm.youku.com/
 ||cibntv.net/youku/$media
 ||valipl.cp31.ott.cibntv.net/$media
-*/ikuAdapterNew.js^$script,domain=youku.com|tudou.com
+|https://static.youku.com/index/js/ikuAdapterNew.js
+|https://js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
 !||ykimg.com/material/$image
 !youku.com##.ad-wrap
 ||sealine.youku.com/yk/*callback=adpagesdk$script
@@ -23,7 +24,7 @@ iqiyi.com##+js(aopr, DOMParser)
 qq.com##.mod_ad
 v.qq.com##+js(json-prune, adList, ad)
 v.qq.com##+js(json-prune, ad, vinfo)
-!v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||vhotwsh.video.qq.com/*.mp4?$media
 ||qq.com/*.mp4?$media,domain=v.qq.com
 @@||qq.com/fcgi-bin/
@@ -50,7 +51,8 @@ pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
 ||g.pptv.com/game/$subdocument
 
 @@||tb.mgtv.com/sdk/*/ad-sdk.js$script
-||da.mgtv.com/
+||video.da.mgtv.com/$media
+||da.mgtv.com/mediafiles/wiad_creative/$image
 
 @@||js.tv.itc.cn/gg.seed.js
 ||css.tv.itc.cn/m/img/player/dlBanner.$image
