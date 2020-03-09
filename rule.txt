@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202003071
+! Version: 202003091
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -41,7 +41,7 @@ v.baidu.com##div[videoadv],a[href^="http://g.youxi.v.baidu."]
 ||as2.wenku.baidu.com/$subdocument
 ||wkstatic.bdimg.com/static/wkview/widget/top_ads_banner/$script
 
-www.baidu.com###content_left>div:not(.c-container),#content_right>table td>:not(#con-ar)
+www.baidu.com###content_right td >:not(#con-ar)
 www.baidu.com##div.c-container:has(a[data-landurl])
 zhidao.baidu.com###left-promotion,#ui-tooltip-0,div.cms-slide.cms-slide-optimus,div.wgt-bottom-ask,div.cms-slide.cms-slide-lazy
 !--贴吧---
@@ -133,7 +133,7 @@ pageMediaControl*$script
 ! *_banner.$script,object,image
 */images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
 */impservice$script
-*/market.$script
+*/market.$script,domain=~jin10.com
 */market_$script
 */market-$script
 ||media.$third-party,script,subdocument
@@ -565,7 +565,7 @@ ttmeiju.com##.midder>div[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ||pic.yupoo.com/*/medish.jpg$domain=~ttmeiju.com
 ||ygdy8.com/jsy/
 !-------------------视频站点--------------------
-yatu.tv###loadimg,#daohang,#loadtop,div[id^=myas],#myds1
+yatu.tv###loadtop,[id^=myas],#myds1
 ch-hr12333.com
 g1c5.com
 ieeod0.com
