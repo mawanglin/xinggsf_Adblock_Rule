@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202003091
+! Version: 202003271
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -11,7 +11,6 @@
 ||ubmcmm.baidustatic.com/
 ||adscdn.baidu.com/
 ||als.baidu.com/dalog/log
-||eclick.baidu.com/
 @@||eiv.baidu.com/fcimg
 ||eiv.baidu.com/
 ||f11.baidu.com/
@@ -23,7 +22,6 @@
 ||crs.baidu.com/
 ||entry.baidu.com/$subdocument
 ||hm.baidu.com/
-||nsclick.baidu.com/$domain=~www.hao123.com
 ||list.video.baidu.com/pc_static/promotion/
 @@||baidu.com/customer_search/api/
 ||znsv.baidu.com/
@@ -36,7 +34,6 @@ v.baidu.com##div[videoadv],a[href^="http://g.youxi.v.baidu."]
 ||app.video.baidu.com/adver?
 ||v.baidu.com/staticapi/videoAd.json?
 
-||wenku.baidu.com/xpage/$xmlhttprequest
 ||eduad.baidu.com/
 ||as2.wenku.baidu.com/$subdocument
 ||wkstatic.bdimg.com/static/wkview/widget/top_ads_banner/$script
@@ -143,9 +140,9 @@ pageMediaControl*$script
 @@||patch.ali213.net/js/pop.js^$script
 */pop.js^
 *.pop.js^$script
-*popup.js^$domain=~qzone.qq.com|~yinyuetai.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
+*popup.js^$domain=~qzone.qq.com|~fupin832.com|~yinyuetai.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
 */float.js|
-*gonggao.js|
+*gonggao.js|$domain=~lol.qq.com
 */tan.$script
 */tan1.$script
 */tj.js|
