@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202003271
+! Version: 202003301
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -38,7 +38,6 @@ v.baidu.com##div[videoadv],a[href^="http://g.youxi.v.baidu."]
 ||as2.wenku.baidu.com/$subdocument
 ||wkstatic.bdimg.com/static/wkview/widget/top_ads_banner/$script
 
-www.baidu.com###content_right td >:not(#con-ar)
 www.baidu.com##div.c-container:has(a[data-landurl])
 zhidao.baidu.com###left-promotion,#ui-tooltip-0,div.cms-slide.cms-slide-optimus,div.wgt-bottom-ask,div.cms-slide.cms-slide-lazy
 !--贴吧---
@@ -87,6 +86,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||coinhive-manager.com/
 dlads.cn
 dmvbdfblevxvx.com
+adservice.google.com
 ||googleadservices.com
 ||googlesyndication.com
 ||google-analytics.com
@@ -553,14 +553,17 @@ dygang.com,hao6v.com###gd
 
 ||share.dmhy.org^$image
 
-dy1000.com##div[class^=random]
-||dy1000.applecdn.net/js/
 ||www.dy2018.com/js$script
 subhd.com##div[style^="text-align:center;height:270px"],.col-md-10 > div:nth-of-type(1)
 ||subhd.com/images/ap/$image
-ttmeiju.com##.midder>div[style="float:left;margin-bottom:27px;margin-top:27px;"],#miaov_float_layer,#dialog-overlay,#new-user,div.trailer li:last-child,#footer img,#header+div
-||pic.yupoo.com/*/medish.jpg$domain=~ttmeiju.com
 ||ygdy8.com/jsy/
+!--人人影视 rrys2019.com ----
+iyoowi.com
+||jstucdn.com/g3/
+||lx167.com^$third-party
+quandangdang.net
+!-- 天天美剧 ttmeiju.me ----
+dieka888.com
 !-------------------视频站点--------------------
 yatu.tv###loadtop,[id^=myas],#myds1
 ch-hr12333.com

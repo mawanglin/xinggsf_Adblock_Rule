@@ -34,6 +34,7 @@ v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 ||tencentmind.com/
 ||xtgreat.com/
 
+bilibili.com##.gg-floor-module,#slide_ad
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
 
