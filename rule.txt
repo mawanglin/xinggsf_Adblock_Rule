@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202003301
+! Version: 202004031
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -475,7 +475,7 @@ pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
 ||33.pcpop.com
 ||ashow.pcpop.com/
 
-v2ex.com###Rightbar
+v2ex.com##.box:has(.sidebar_compliance)
 ||v2ex.assets.uxengine.net/assets/sidebar/$image
 zhihu.com##.Banner.Card,.shameimaru-section,.Banner-image,.Banner-image
 !-------------------杂项--------------------
@@ -565,6 +565,10 @@ quandangdang.net
 !-- 天天美剧 ttmeiju.me ----
 dieka888.com
 !-------------------视频站点--------------------
+!-- kan.jinbaozy.com
+kolinay.com
+mieyisi.com
+
 yatu.tv###loadtop,[id^=myas],#myds1
 ch-hr12333.com
 g1c5.com
