@@ -1,12 +1,13 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202008031
+! Version: 202009151
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
 @@*$domain=taobao.com|alipay.com|suning.com|vmall.com|etao.com|tmall.com|paipai.com|jd.com|jd.hk|i.qq.com|my.csdn.net
 !--------------------------百度----------------------------------
 @@||bdstatic.com/static/common/widget/ui/admanager/$script,domain=image.baidu.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js
 ||cpro.
 ||dup.baidustatic.com/
 ||ubmcmm.baidustatic.com/
@@ -446,7 +447,7 @@ cnbeta.com##.cbv,#artibody~*,#upcoming_box,div.article-global,div.meta > span.fr
 ||img-ads.csdn.net/
 csdn.net##div[class^=ad_],#ad_left,#ad_right,div.AD.mb-bg
 
-mydrivers.com##.duilian,div.news_info:not(.news_blue) > div:first-of-type,a[href*="jd.com/"],div.tj_list_tu
+mydrivers.com##.duilian,a[href*="jd.com/"],div.tj_list_tu
 ||icons.mydrivers.com/news/2018/ry$image
 ||icons.mydrivers.com/20*.gif^$image
 ||mydrivers.com/*_728_90.$image
@@ -587,7 +588,7 @@ dieka888.com
 trade.mtime.com
 !service.mall.mtime.com
 
-!-- kan.jinbaozy.com
+!-- k.jinbaodm.com
 kolinay.com
 mieyisi.com
 
@@ -607,7 +608,6 @@ youle55.com
 ||luck.v1.cn/$object-subrequest
 
 @@||union.bokecc.com/player
-||bokecc.com/*.jpg|$object-subrequest
 ||bokecc.com/flash/playlog?
 ||click.bokecc.com/
 ||imedia.bokecc.com/
