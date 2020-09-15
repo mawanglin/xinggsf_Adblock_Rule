@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202008031
+! Version: 202009151
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -97,8 +97,30 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 ||g.huya.com/
 
 ||pub.funshion.com
-||www.dililitv.com/*.php?ad=$script
 
 */preroll/$media,domain=91porn.com
 ||91p20.space^
 ||waust.at^
+
+||www.dililitv.com/*.php?ad=$script
+www.dililitv.com##+js(acis, console.log, about-disclaimer-contact)
+
+www.dyjihe.com##.tempWrap
+
+haitur.com,www.haicaoys.com,www.cdfdy.com,www.labays.com,www.meiyuktv.cn##.dplayer-web-fullscreen-fix .float-box
+haitur.com##header > .container:style(max-width:90%!important;width:90%!important)
+
+www.imomoe.in,hehua.net,kakadm.com##+js(ra, target, a[href^="/"])
+www.imomoe.in###adl,#adr
+
+www.kalidm.com##+js(acis, console.log, window.location.href="/new")
+
+yatu.tv###loadtop,[id^=myas],#myds1,#daohang
+3z9e.cn
+anquanzhuomian.com
+ch-hr12333.com
+g1c5.com
+ieeod0.com
+v4dwkcv.com
+youle55.com
+||www.yatu.tv/image/*.gif^$image
