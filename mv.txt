@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202009161
+! Version: 202009181
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -26,7 +26,7 @@ iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 qq.com##.mod_ad
 v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
 ||qq.com/*.1.mp4?*fmt=shd^$mp4,domain=v.qq.com
-v.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||qq.com/fcgi-bin/
 ||adss.video.qq.com/
 ||gtimg.com/qqlive/
@@ -107,7 +107,7 @@ www.dililitv.com##+js(acis, console.log, about-disclaimer-contact)
 www.dyjihe.com##.tempWrap
 
 haitur.com,www.haicaoys.com,www.cdfdy.com,www.labays.com,www.meiyuktv.cn##.dplayer-web-fullscreen-fix .float-box
-haitur.com##header > .container:style(max-width:90%!important;width:90%!important)
+haitur.com##.container:style(max-width:90%!important;width:90%!important)
 
 www.imomoe.in,hehua.net,kakadm.com##+js(ra, target, a[href^="/"])
 www.imomoe.in###adl,#adr
