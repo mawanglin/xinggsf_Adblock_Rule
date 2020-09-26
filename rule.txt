@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202009151
+! Version: 202009261
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -42,12 +42,10 @@ v.baidu.com##div[videoadv],a[href^="http://g.youxi.v.baidu."]
 www.baidu.com##div.c-container:has(a[data-landurl])
 zhidao.baidu.com###left-promotion,#ui-tooltip-0,div.cms-slide.cms-slide-optimus,div.wgt-bottom-ask,div.cms-slide.cms-slide-lazy
 !--贴吧---
-tieba.baidu.com###guide_fc,#global_notice_wrap,.content_top,.forum_header>div:first-child,.app_forum_top_nav,#encourage_entry,[id^=pagelet_encourage-appforum],.iframe_wrapper.clearfix,.d_sign_split~*,#thread_list>li:not([class*=thread_]),#j_p_postlist>div:not([data-field]):not(#j_p_postlist),#j_p_postlist>div[data-isautoreply],#game_live_list,#com_u9_head,.play_list_panel.j_play_list_panel,div.search_main_wrap~*,#aside_ad,a.j_click_stats.img_wrap,div.firework-wrap,ul.tbui_aside_float_bar+div.clearfix
-tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
+tiebac.baidu.com,tieba.baidu.com,bdimg.com##div.j_l_post[ad-dom-img],#thread_list>li:not(.j_thread_list)
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 ||tb1.bdstatic.com/??/tb/_/game_iframe_common_$script
 ||tb1.bdstatic.com/??/tb/_/game_rank_in_head_$script
-||tb1.bdstatic.com/tb/cms/frs/bg/$image
 !----------------------通用、广告联盟站点-----------------------
 ||ad.
 */ad.
