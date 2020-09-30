@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! title: 乘风 广告过滤规则
-! Version: 202009271
+! Version: 202010011
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@*$stylesheet
@@ -496,6 +496,7 @@ zhihu.com##.Banner.Card,.shameimaru-section,.Banner-image,.Banner-image
 !-------------------杂项--------------------
 1ting.com##[id^=tingx_]
 ||www.1ting.com/$subdocument
+mail.21cn.com##.arale-dialog-1_2_3
 ||mail.21cn.com/w2/source/images/firstpagecont/$image
 360doc.com##div[id^=divad],#fullbg
 ||webservice.360doc.com/
@@ -508,7 +509,7 @@ zhihu.com##.Banner.Card,.shameimaru-section,.Banner-image,.Banner-image
 baike.com###right_ad_div
 ||hdad.baike.com/
 ||www.bdsola.com/js/common.js
-bing.com##li.b_ad
+bing.com##li.b_ad,#b_notificationContainer_bop
 bitauto.com##.ad-tag-box,ins,body>div.container[style^=margin-top]
 ||bitautoimg.com/ResourceFiles/$image,object
 ||duomai.com/$third-party
@@ -544,8 +545,8 @@ qiushibaike.com##div.shopwindow
 ||api.huo360.com/www/back/$image
 ||www.toutiao.com/api/web_ads/
 toutiao.com##div.adTab,div.carAd,#pagelet-detailadd,iframe[onload^="var adWrap"],li.item.J_add,div[ad_name]
-u17.com##[id^=u17-advert-fix-ad],div.ad_wrap
-|http://tj.u17t.com/$script
+swc.weather.com.cn
+u17.com##[id|=u17-advert],div.ad_wrap
 ||tongj.xilu.com/
 ||img.cmm.xmfish.com/pages/uploads/20$image
 bbs.xmfish.com##div[id^=adm_show_]
