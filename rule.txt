@@ -277,6 +277,7 @@ zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],div[class*=-ad],div[class|=
 !-------------------QQ--------------------
 @@||wx.qq.com/*/ad_$script
 @@||cdn.exp.qq.com/img/
+@@||res.wx.qq.com/mmbizwap/$script
 ||adsrich.qq.com/
 ||games.qq.com/playgame/videoweb/
 ||games.qq.com/playgame/gamesad/js/swfobject.js
