@@ -103,7 +103,7 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 ||waust.at^
 
 ||www.dililitv.com/*.php?ad=$script
-www.dililitv.com,www.hmtv.me,imeiju.io,www.kalidm.com,www.zxfun.net##+js(acis, console.log, Object.defineProperty)
+www.dililitv.com,www.hmtv.me,imeiju.io,www.mkvdo.com,www.zxfun.net##+js(acis, console.log, Object.defineProperty)
 
 www.dyjihe.com##.tempWrap
 
@@ -112,7 +112,7 @@ haitur.com##.container:style(max-width:90%!important;width:90%!important)
 haitur.com##.left-content:style(width:77%!important)
 
 www.imomoe.ai,hehua.net,kakadm.com##+js(ra, target, a[href^="/"])
-www.imomoe.ai###adl,#adr
+!www.imomoe.ai###adl,#adr
 ||alicdn.com/$image,domain=api.xiaomingming.org
 
 yatu.tv###loadtop,[id^=myas],#myds1,#daohang
