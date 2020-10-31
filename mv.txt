@@ -103,7 +103,7 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 ||waust.at^
 
 ||www.dililitv.com/*.php?ad=$script
-www.dililitv.com,www.hmtv.me,imeiju.io,www.mkvdo.com,www.zxfun.net##+js(acis, console.log, Object.defineProperty)
+www.dililitv.com,www.hmtv.me,imeiju.io,www.mkvdo.com,www.zxfun.net##+js(acis,Object.defineProperty,location.href)
 
 www.dyjihe.com##.tempWrap
 
