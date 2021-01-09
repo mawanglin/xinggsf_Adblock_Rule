@@ -141,6 +141,7 @@ pageMediaControl*$script
 */market.$script,domain=~jin10.com
 */market_$script
 */market-$script
+@@|https://media.amazon.map.fastly.net^$script
 ||media.$third-party,script,subdocument
 */pagead$script
 */s.php?id=$script,third-party
