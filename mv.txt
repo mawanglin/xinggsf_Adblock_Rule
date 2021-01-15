@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202101091
+! Version: 202101131
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -36,7 +36,7 @@ v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 ||tencentmind.com/
 ||xtgreat.com/
 
-bilibili.com##.gg-floor-module,#slide_ad
+bilibili.com##.gg-floor-module,#slide_ad,#slide_ad+a[data-target-url]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
 
@@ -107,12 +107,12 @@ dililitv.com,hmtv.me,imeiju.io,mkvdo.com,zxfun.net##+js(acis,Object.defineProper
 
 www.dyjihe.com##.tempWrap
 
-haitur.com,www.haicaoys.com,www.cdfdy.com,www.labays.com,www.meiyuktv.cn##.dplayer-web-fullscreen-fix .float-box
+haitur.com,haicaoys.com##.dplayer-web-fullscreen-fix .float-box
 haitur.com##.container:style(max-width:90%!important;width:90%!important)
 haitur.com##.left-content:style(width:77%!important)
 
 foxiys.com##+js(ra, target, a)
-imomoe.*,hehua.net,kakadm.com,milimili.tv,qiqidongman.com##+js(ra, target, a[href^="/"])
+imomoe.*,hehua.net,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in##+js(ra, target, a[href^="/"])
 !imomoe.*###adl,#adr
 ||alicdn.com/$image,domain=api.xiaomingming.org
 
@@ -122,10 +122,9 @@ anquanzhuomian.com
 ch-hr12333.com
 g1c5.com
 ieeod0.com
-tracker.novage.com.ua
-tracker.openwebtorrent.com
 fourier.taobao.com
 v4dwkcv.com
 youle55.com
+||tracker.$domain=yatu.tv
 ||www.yatu.tv/image/*.gif^$image
 ||www.yatu.tv/m/images/$image
