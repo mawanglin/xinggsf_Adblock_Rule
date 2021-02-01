@@ -106,14 +106,13 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 js.dilidd.com
 dililitv.com,hmtv.me,imeiju.io,mkvdo.com,zxfun.net##+js(acis,Object.defineProperty,location.href)
 
-www.dyjihe.com##.tempWrap
+dyjihe.com##.tempWrap
 
 haitur.com,haicaoys.com##.dplayer-web-fullscreen-fix .float-box
 haitur.com##.container:style(max-width:90%!important;width:90%!important)
 haitur.com##.left-content:style(width:77%!important)
 
-foxiys.com##+js(ra, target, a)
-imomoe.*,hehua.net,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in##+js(ra, target, a[href^="/"])
+dyjihe.com,hehua.net,imomoe.*,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in##+js(ra, target, a[href^="/"])
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
 
