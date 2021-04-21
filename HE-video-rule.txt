@@ -1,0 +1,78 @@
+{
+	"request": [],
+	"sendHeader": [
+		{
+			"enable": false,
+			"name": "tieba视频播放",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?://[^/]+\\.baidu\\.com/tieba-smallvideo/\\w+\\.mp4",
+			"exclude": "",
+			"group": "ray",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "tieba.baidu.com"
+			}
+		}
+	],
+	"receiveHeader": [
+		{
+			"enable": true,
+			"name": "360云盘视频播放",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "^https://\\w+\\.yunpan\\.360\\.cn/intf\\.php.+&fname=.+\\.mp4",
+			"exclude": "",
+			"group": "ray",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "miui.com视频播放",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "prefix",
+			"pattern": "https://vip.w.xk.miui.com/",
+			"exclude": "",
+			"group": "ray",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "QQ视频播放",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "^https?://[^/]+\\.(weiyun|qq|tencent-cloud)\\.com/.+\\.mp4",
+			"exclude": "",
+			"group": "ray",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "爱迪影视视频播放",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "prefix",
+			"pattern": "https://v2.aidi.tv/video.php?",
+			"exclude": "",
+			"group": "ray",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		}
+	],
+	"receiveBody": []
+}
