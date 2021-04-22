@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! title: 乘风 视频广告过滤规则
-! Version: 202104211
+! Version: 202104221
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 
@@ -33,12 +33,13 @@ v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||video.qq.com/fcgi-bin/
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
-||adss.video.qq.com/
+adss.video.qq.com
 ||gtimg.com/qqlive/
-||miaozhen.com/
-||reachmax.cn/
-||tencentmind.com/
-||xtgreat.com/
+miaozhen.com
+reachmax.cn
+scorecardresearch.com
+tencentmind.com
+xtgreat.com
 
 bilibili.com##.gg-floor-module,#slide_ad,#slide_ad+a[data-target-url]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
@@ -119,7 +120,7 @@ haitur.com,haicaoys.com##.dplayer-web-fullscreen-fix .float-box
 haitur.com##.container:style(max-width:90%!important;width:90%!important)
 haitur.com##.left-content:style(width:77%!important)
 
-dyjihe.com,hehua.net,imomoe.*,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in##+js(ra, target, a[href^="/"])
+dyjihe.com,hehua.net,imomoe.*,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in,xxdm8.com##+js(ra, target, a[href^="/"])
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
 
