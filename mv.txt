@@ -110,7 +110,7 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 
 ||www.dililitv.cc/*.php?ad=$script
 js.dilidd.com
-dililitv.cc,hmtv.me,imeiju.io,zxfun.net##+js(acis,Object.defineProperty,location.href)
+dililitv.cc,hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
 
 dyjihe.com##.tempWrap
 
