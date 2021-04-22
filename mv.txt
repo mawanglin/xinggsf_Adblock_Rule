@@ -108,6 +108,7 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 ||91p20.space^
 ||waust.at^
 
+dililitv.cc##+js(aeld,dblclick,dp.fullScreen.request)
 ||www.dililitv.cc/*.php?ad=$script
 js.dilidd.com
 dililitv.cc,hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
